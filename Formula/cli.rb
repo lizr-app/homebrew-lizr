@@ -1,4 +1,4 @@
-class Lizr < Formula
+class Cli < Formula
   desc "Selective routing proxy for AI and geo-locked services"
   homepage "https://lizr.app"
   license "Proprietary"
