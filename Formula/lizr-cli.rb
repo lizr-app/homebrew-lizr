@@ -7,22 +7,22 @@ class LizrCli < Formula
   on_macos do
     on_arm do
       url "https://get.lizr.app/dl/0.0.36/lizr_darwin_arm64"
-      sha256 "ddbbd9ee4ecda1efdadc33ef97e7959e8548296bafc11265d35b6940fa162efd"
+      sha256 "1c26d179d689b45891b96cedf868be2707fa68249a7530d518f83445afcd3d12"
     end
     on_intel do
       url "https://get.lizr.app/dl/0.0.36/lizr_darwin_amd64"
-      sha256 "90f785c995e6c0ebe26e20bf7464203ed2804d79d16c2053860edf555a5a7baa"
+      sha256 "0a666408a3f1491f78f234b436ce2a19734a0d2478cf047af7ed18d5f36608c0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://get.lizr.app/dl/0.0.36/lizr_linux_arm64"
-      sha256 "98ce811ad79f4e07bf16cb298d16c9ed29adddea40498ff837044655b92e0bbe"
+      sha256 "d28082cfa44c16b7a112401f397dbc7ffa413098d8d50504f4f2be96cc131702"
     end
     on_intel do
       url "https://get.lizr.app/dl/0.0.36/lizr_linux_amd64"
-      sha256 "9d0b185a9eba247d44c4566e66feaa7d6c3d7125afb8f16fc6da2aa21b5abc31"
+      sha256 "8b55af298aa6b3da81b96e2fc4ead990f6a614ba1ac87be584173361408c4307"
     end
   end
 
