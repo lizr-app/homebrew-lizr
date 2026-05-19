@@ -2,27 +2,27 @@ class LizrCli < Formula
   desc "Selective routing proxy for AI and geo-locked services"
   homepage "https://lizr.app"
   license "Proprietary"
-  version "0.0.76"
+  version "0.0.77"
 
   on_macos do
     on_arm do
-      url "https://get.lizr.app/dl/0.0.76/lizr_darwin_arm64"
-      sha256 "7a389ccec6ae056b0725993823266a70e4f7f0273eeace00d8d147cbd41c11a5"
+      url "https://get.lizr.app/dl/0.0.77/lizr_darwin_arm64"
+      sha256 "92cb46e241b17ebf799f3d5a3853da2a8254dc5f65e316d7e15dac4643eb290e"
     end
     on_intel do
-      url "https://get.lizr.app/dl/0.0.76/lizr_darwin_amd64"
-      sha256 "8e5d6d39ad3a5af76cb43087b348e156702e24ca5e51393252cf1d38740b4466"
+      url "https://get.lizr.app/dl/0.0.77/lizr_darwin_amd64"
+      sha256 "728d4b2e5d2c64a1889ee3f76b5c41e95460b64655be0c4c11ee41ed869592c0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://get.lizr.app/dl/0.0.76/lizr_linux_arm64"
-      sha256 "332df1122e903565c041ec6b5b080c8df85430c062baf70626a63f71a1b00d5b"
+      url "https://get.lizr.app/dl/0.0.77/lizr_linux_arm64"
+      sha256 "1d9982818e0334a039286298d9f5e7d64ced4eba46db6f57f39c6ea1b9e3c35d"
     end
     on_intel do
-      url "https://get.lizr.app/dl/0.0.76/lizr_linux_amd64"
-      sha256 "f4b6c959e683890bf228412b2c7c475c6a748e27961b76eafa3fac84f09b65e2"
+      url "https://get.lizr.app/dl/0.0.77/lizr_linux_amd64"
+      sha256 "76e22f128951a83ccdd48ba2235a104ba431917add27b23c0c03fd3731346d16"
     end
   end
 
